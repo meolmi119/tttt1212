@@ -19,6 +19,11 @@ public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
+	
+	
+	//fkfkfkflfkjnfdlk;sajgfkljlk;fjkdlsajfiolkhna;fdjs;lafjdslkjfkl;dsjklfjds;l git test
+	
+	
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
@@ -32,6 +37,7 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+		
 		
 		return "main";
 	}
